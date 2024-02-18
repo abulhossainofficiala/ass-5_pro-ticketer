@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Ticketer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#ffffff]">
+    <header class="container mx-auto">
+      <div class="navbar md:px-12">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-[black] text-2xl rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li><a>about</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl md:text-4xl text-[black]"
+            >Pro Ticket</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex text-3xl text-[black]">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>about</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            ><button
+              class="bg-[#E8FAE5] rounded md:rounded-xl px-3 py-2 md:px-5 md:py-3 border-solid border-[1px] border-[#1fd100] text-[#1fd100] font-semibold"
+            >
+              Bus <i class="fa-solid fa-bus"></i></button
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container mx-auto">
+        <div
+          class="h-[900px] md:h-[650px] md:w-[100%] bg-[url(images/banner.png)] object-cover object-center bg-no-repeat mx-2 md:mx-14 relative"
+        >
+          <div class="flex flex-col items-center mt-4">
+            <h2 class="text-2xl md:text-5xl text-[#fff] font-semibold mt-24">
+              End-to-End Travel with
+            </h2>
+            <h2 class="text-2xl md:text-5xl font-semibold mt-4 text-[#1fd100]">
+              AB Paribahan
+            </h2>
+            <p class="mt-5 text-[#fff] mx-8">
+              Welcome to Pro Ticket – Your Ultimate Destination for Travel
+              Tickets! <br />
+              Looking for the Barishal to Dhaka bus ticket? You're in the right
+              place!
+            </p>
+            <button class="bg-[#1fd100] text-[black] rounded-xl px-5 py-4 mt-8">
+              <a href="#">Buy Tickets</a>
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-between justify-center w-[65%] mx-auto absolute top-[580px] left-[17%]"
+        >
+          <div
+            class="flex flex-row gap-4 justify-between justify-center justify-items-center items-center shadow-md px-10 py-6 border-b-2 border-[#1fd100] rounded-2xl bg-[#ffffff]"
+          >
+            <div>
+              <i class="fa-solid fa-people-roof text-[#1fd100]"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold text-[black]">500k+</h3>
+              <p>Registered users</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-row gap-4 justify-between justify-center justify-items-center items-center shadow-md px-10 py-6 border-b-2 border-[#1fd100] rounded-2xl bg-[#ffffff]"
+          >
+            <div>
+              <i class="fa-solid fa-chalkboard-user text-[#1fd100]"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold text-[black]">1.7 lacks</h3>
+              <p>Tickets sold</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-row gap-4 justify-between justify-center justify-items-center items-center shadow-md px-10 py-6 border-b-2 border-[#1fd100] rounded-2xl bg-[#ffffff]"
+          >
+            <div><i class="fa-solid fa-car-side text-[#1fd100]"></i></div>
+            <div>
+              <h3 class="text-2xl font-bold text-[black]">80k</h3>
+              <p>Rental partners</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mx-auto">
+        <div class="px-2 md:px-12">
+          <div class="flex flex-col justify-items-center items-center">
+            <h2
+              class="text-xl md:text-4xl mt-4 md:mt-12 mb-4 md:mb-8 font-bold text-[black]"
+            >
+              Best offers for you
+            </h2>
+          </div>
+          <!-- all offer card -->
+          <div
+            class="flex flex-col md:flex-row justify-between justify-items-center items-center i gap-4 md:gap-8"
+          >
+            <!-- 15% discount card -->
+            <div
+              class="flex flex-col md:flex-row w-[100%] md:w-[50%] gap-1 md:gap-4 bg-[#FEBF0F] rounded-3xl text-black"
+            >
+              <div class="w-[100%] md:w-[60%]">
+                <h2
+                  class="md:font-bold text-xl md:text-3xl pt-8 md:pt-12 pl-6 md:pl-6"
+                >
+                  15% OFF
+                </h2>
+                <p class="mt-2 md:mt-4 pl-6 md:pl-6">on your next purchase</p>
+                <p class="mt-1 pl-6 md:pl-6 pb-4 md:pb-8">
+                  use by January 2024
+                </p>
+              </div>
+              <img
+                class="hidden md:flex"
+                src="./images/cupon-devider.png"
+                alt=""
+              />
+              <div class="w-[100%] md:w-[40%]">
+                <h2
+                  class="md:font-bold md:text-2xl pt-12 md:pt-16 pl-6 md:pl-6"
+                >
+                  NEW15
+                </h2>
+                <p class="mt-1 md:mt-2 pl-6 md:pl-6 pb-4 md:pb-12">
+                  Coupon Code
+                </p>
+              </div>
+            </div>
+
+            <!-- 20% discount card -->
+            <div
+              class="flex flex-col md:flex-row w-[100%] md:w-[50%] gap-1 md:gap-4 bg-[#F78D9C] rounded-3xl text-black"
+            >
+              <div class="w-[100%] md:w-[60%]">
+                <h2
+                  class="md:font-bold text-xl md:text-3xl pt-8 md:pt-12 pl-2 md:pl-6"
+                >
+                  20% OFF
+                </h2>
+                <p class="mt-2 md:mt-4 pl-6 md:pl-6">on your next purchase</p>
+                <p class="mt-1 pl-6 md:pl-6 pb-4 md:pb-8">
+                  use by January 2024
+                </p>
+              </div>
+              <img
+                class="hidden md:flex"
+                src="./images/cupon-devider.png"
+                alt=""
+              />
+              <div class="w-[100%] md:w-[40%]">
+                <h2
+                  class="md:font-bold md:text-2xl pt-12 md:pt-16 pl-6 md:pl-6"
+                >
+                  Couple 20
+                </h2>
+                <p class="mt-1 md:mt-2 pl-6 md:pl-6 pb-4 md:pb-12">
+                  Coupon Code
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./js files/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2ba20532fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
